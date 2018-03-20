@@ -1,8 +1,7 @@
 The Noun Project
 ================
-[![npm version](https://badge.fury.io/js/the-noun-project.svg)](http://badge.fury.io/js/the-noun-project)
-[![Build Status](https://travis-ci.org/rosshettel/the-noun-project.svg?branch=master)](https://travis-ci.org/rosshettel/the-noun-project)
 
+[![npm Module](https://img.shields.io/npm/v/@mars/the-noun-project.svg)](https://www.npmjs.com/package/@mars/the-noun-project)
 
 Node.js wrapper for The Noun Project's API
 
@@ -10,12 +9,12 @@ Installation
 ------------
 Simply add to your project with
 ````bash
-npm install --save the-noun-project
+npm install --save @mars/the-noun-project
 ````
 
 In your project file:
 ````javascript
-var NounProject = require('the-noun-project'),
+var NounProject = require('@mars/the-noun-project'),
 nounProject = new NounProject({
     key: 'foo',
     secret: 'bar'
